@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+    <!-- Meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- Title -->
+    <title>ALMCLOTHES</title>
+    
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
+    <!-- Custom stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+  </head>
+  <body>
+
+    <!-- HEADER NAVBAR -->
+    <div class="navbar">
+      <div class="container">
+        <h1><a href="index.html">ALMCLOTHES</a></h1>
+        <ul>
+          <!-- Login link -->
+          <li class="deleteIcon"><a href="/login.html"><i class="fa-regular fa-user"></i></a></li>
+
+          <!-- Shopping cart -->
+          <div class="shopping deleteIcon" id="icnCart">
+            <li><i class="fa-solid fa-cart-shopping"></i></li>
+            <span class="quantity-navbar" id="redCircle">0</span>
+          </div>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Category switch links -->
+    <div class="switch-category">
+      <div class="container">
+        <ul>
+          <li><a href="productsW.html?category=shirts&gender=female">SHIRTS</a></li>
+          <li><a href="productsW.html?category=pants&gender=female">PANTS</a></li>
+          <li><a href="productsW.html?category=t-shirts&gender=female">TSHIRTS</a></li>
+          <li><a href="productsW.html?category=accessories&gender=female">ACCESSORIES</a></li>
+          <li><a href="productsW.html?category=sweatshirts&gender=female">SWEATSHIRTS</a></li>
+          <li><a href="productsW.html?category=knitwear&gender=female">KNITWEAR</a></li>
+          <li><a href="productsW.html?category=jackets&gender=female">JACKETS</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- CART -->
+    <div class="show-cart">
+      <div class="cart-container">
+        <h1>CART</h1>
+        <div class="closeShopping">
+          <i class="fa-solid fa-x" id="x-close"></i>
+        </div>                    
+      </div>
+      <div class="listCart"></div>
+      <div class="checkOut">
+        <div class="subTotal">0</div>
+        <button><a href="cart.html">CHECK OUT</a></button>
+      </div>
+    </div>
+
+    <!-- Container for product section -->
+    <div class="container">
+      <div class="product-section container"></div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="section-p1">
+      <div class="container text-left">
+        <div class="row">
+          <div class="col-md-4">
+            <h4>Contact</h4>
+            <p><strong>Address: </strong>10 Marco Aurelio Street, VERONA</p>
+            <p><strong>Phone: </strong>0876 786543221</p>
+            <p><strong>Opening Hours: </strong>9:00 AM - 1:00 PM, 3:00 PM - 7:00 PM. Mon-Fri</p>
+            <div class="follow">
+              <h4>Follow Us</h4>
+              <div class="icon">
+                <i class="fab fa-facebook "></i>
+                <i class="fab fa-twitter "></i>
+                <i class="fab fa-instagram "></i>
+                <i class="fab fa-pinterest-p "></i>
+                <i class="fab fa-youtube "></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <h4>About Us</h4>
+            <a href="#" class="d-block">About Us</a>
+            <a href="#" class="d-block">Shipping Information</a>
+            <a href="#" class="d-block">Privacy Policy</a>
+            <a href="#" class="d-block">Terms and Conditions</a>
+            <a href="#" class="d-block">Contact Us</a>
+          </div>
+          <div class="col-md-4">
+            <h4>My Account</h4>
+            <a href="#" class="d-block">Track Order</a>
+            <a href="#" class="d-block">Help</a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="copyright">
+              <p>© 2023, ALM CLOTHES </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap Bundle JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!-- Custom JS scripts -->
+    <script src="clientSide/main.js"></script>
+    <script src="clientSide/script.js"></script>
+    <script>
+      // JavaScript to load products based on URL parameters and load cart content on window load
+      window.onload = function() {
+        const urlParams = new URLSearchParams(window.location.search);
+        const gender = urlParams.get('gender');
+        const category = urlParams.get('category');
+        loadProducts(gender, category);
+
+        let email = sessionStorage.getItem('email');
+        loadCartContent(email);
+      };
+    </script>  
+  </body>
+</html>
