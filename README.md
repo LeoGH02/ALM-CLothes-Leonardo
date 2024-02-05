@@ -21,6 +21,7 @@ ALM Clothes is built with a blend of modern technologies to ensure top-notch per
 - **Body-Parser**
 - **JSON Web Token (JWT)**
 - **Nodemon**
+- **Pay Pal SDK**
 
 ## Installation
 - Download and extract zip file
