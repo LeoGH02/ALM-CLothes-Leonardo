@@ -24,7 +24,7 @@ ALM Clothes is built with a blend of modern technologies to ensure top-notch per
 - **Pay Pal SDK**
 
 ## Installation
-- Download and extract zip file
+- Download and extract as  zip file
 
 - npm install // install the dependecies
 
