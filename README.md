@@ -3,7 +3,7 @@
 ## Introduction
 Welcome to the repository of ALM Clothes, our e-commerce project! This web application is designed to offer a smooth and secure online shopping experience for fashion enthusiasts. 
 ALM Clothes features a wide range of clothing items, complete with real product images to enhance the shopping experience. 
-This project was developed as part of a university exam, showcasing our skills in web development and e-commerce implementation.
+This project was developed as part of a university exam.
 
 ## Real Product Images Usage Notice
 Within the ALM Clothes platform, we have incorporated images of real products. These images are integral to providing a realistic and engaging user experience. However, it is important to note the following considerations:
