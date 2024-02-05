@@ -23,11 +23,11 @@ ALM Clothes is built with a blend of modern technologies to ensure top-notch per
 - **Nodemon**
 
 ## Installation
-- git clone https://github.com/LeoGH02/ALM-CLothes-Leonardo
+- Download and extract zip file
 
-- npm install
+- npm install // install the dependecies
 
-- npm start
+- npm start //start the app on a local server
 
 
 
