@@ -1,0 +1,598 @@
+{
+  "users": [
+    {
+      "name": "Marco",
+      "surname": "Farinato",
+      "email": "marcofarinato02@gmail.com",
+      "password": "$2b$10$CtYQ.zhBWNxA415NJOWiwVDnJa/n82MC.UCpLlL7ru9m8z1J6",
+      "cart": []
+    },
+    {
+      "name": "Adriano",
+      "surname": "Guastaferro",
+      "email": "adrianoguastaferro02@gmail.com",
+      "password": "$2b$10$CtYQ.zhBWNxAHbh5NJOWiwVDnJa/n82MC.UCpLlL7ru9m8z1J6",
+      "cart": []
+    },
+    {
+      "name": "almleo",
+      "surname": "loealm",
+      "address": "almleo 123",
+      "birthDate": "2024-02-21",
+      "email": "ciaoemail@asd",
+      "password": "$2b$10$CtYQ.zhBWNxAGI7Hbh5NJOWiwVDnJa/n82MC.UCpLlL7ru9m8z1J6",
+      "cart": []
+    },
+    {
+      "name": "Leonardo",
+      "surname": "Campana",
+      "address": "123 Main Street",
+      "birthDate": "2024-02-14",
+      "email": "ciao123@gmail.com",
+      "password": "$2b$10$3M6wXkQFtlSr3X4j0Smv9eIme5TsSAinwA1e/8.BIaKDaTnWVMkZK",
+      "cart": []
+    }
+  ],
+  "products": [
+    {
+      "name": "white t-shirt",
+      "id": "1",
+      "description": "Introducing our timeless Classic White T-Shirt, a wardrobe essential that effortlessly combines comfort and style. Crafted from high-quality, breathable cotton, this versatile tee is a blank canvas ready to complement your unique fashion expression.",
+      "img": "https://invidia1973.com/17605-large_default/t-shirt-uomo-in-cotone-stretch-con-rib-a-tre-colori.jpg",
+      "price": 25,
+      "category": "t-shirts",
+      "gender": "male",
+      "quantityAvailable": 100
+    },
+    {
+      "name": "black t-shirt",
+      "id": "2",
+      "description": "Introducing our Sleek Black T-Shirt, a versatile essential designed to add a touch of sophistication to your wardrobe. Crafted from premium quality, ultra-soft cotton, this black tee offers unparalleled comfort without compromising on style.",
+      "img": "https://cdn.caposerio.com/media/images/products/30754/large/uomo-abbigliamento-t-shirt-t-shirt-uomo-dsquared2-in-cotone-con-logo-vintage-nero-s71gd1300s23009-l-acd5.jpg",
+      "price": 45,
+      "category": "t-shirts",
+      "gender": "male",
+      "quantityAvailable": 100
+    },
+    {
+      "name": "Gucci t-shirt",
+      "id": "3",
+      "description": "Indulge in luxury with our Gucci Logo Print Cotton T-Shirt, a statement piece that effortlessly blends style and sophistication. Crafted by the renowned fashion house Gucci, this iconic tee showcases the brand's signature elegance and attention to detail.",
+      "img": "https://media.gucci.com/style/DarkGray_Center_0_0_980x980/1692980162/565806_XJAZY_1141_005_100_0000_Light-T-shirt-con-stampa-Gucci-Blade.jpg",
+      "price": 60,
+      "category": "t-shirts",
+      "gender": "male",
+      "quantityAvailable": 98
+    },
+    {
+      "name": "Pyrex t-shirt",
+      "id": "4",
+      "description": "Discover urban edge with our Pyrex Distressed Logo Graphic T-Shirt, a bold addition to your streetwear collection. Crafted by Pyrex, renowned for its cutting-edge designs and urban aesthetic, this tee exudes attitude and style.",
+      "img": "https://www.nencinisport.it/images/width-def/background-def/format-def/end/articoli/pyrex-t-shirt-tinto-capo-verde-militare-pyrex-385373-dettaglio.png",
+      "price": 35,
+      "category": "t-shirts",
+      "gender": "male",
+      "quantityAvailable": 100
+    },
+    {
+      "name": "Calvin Klein t-shirt",
+      "id": "5",
+      "description": "Introducing the Calvin Klein Logo Embroidered Crew Neck T-Shirt, a timeless staple that embodies the brand's legacy of sophistication and style. Crafted with precision and attention to detail, this tee is a versatile addition to any wardrobe.",
+      "img": "https://d18c63gzk0ps2w.cloudfront.net/media/catalog/product/cache/8f568ca51e2bd5270292b106648095e7/C/A/CAKLJ20J219142BEH_BEH_01_caef.jpg",
+      "price": 35.5,
+      "category": "t-shirts",
+      "gender": "female",
+      "quantityAvailable": 100
+    },
+    {
+      "name": "Liu-Jo t-shirt",
+      "id": "6",
+      "description": "Introducing the Liu-Jo Floral Embellished Logo T-Shirt, a captivating blend of elegance and femininity that embodies the essence of the Liu Jo brand. Crafted with meticulous attention to detail, this tee is a versatile addition to your wardrobe.",
+      "img": "https://ritiquality.it/wp-content/uploads/2022/03/p_1_5_6_0_6_15606-T-shirt-donna-Liu-Jo-con-logo-in-strassVA2074J5003.jpg",
+      "price": 45,
+      "category": "t-shirts",
+      "gender": "female",
+      "quantityAvailable": 100
+    },
+    {
+      "name": "Twinset t-shirt",
+      "id": "7",
+      "description": "Introducing the Twinset Sequin Embellished Logo T-Shirt, a glamorous expression of contemporary style and luxury from the renowned fashion house Twinset. Crafted with meticulous attention to detail, this tee exudes sophistication and charm.",
+      "img": "https://i.ebayimg.com/images/g/ymcAAOSwYWpkh5po/s-l1200.jpg",
+      "price": 40,
+      "category": "t-shirts",
+      "gender": "female",
+      "quantityAvailable": 100
+    },
+    {
+      "name": "Moschino t-shirt",
+      "id": "8",
+      "description": "Introducing the Moschino Couture Logo Print Cotton T-Shirt, a bold statement piece that embodies the playful spirit and high-fashion aesthetics of the iconic Moschino brand. Crafted with precision and creativity, this tee is a must-have addition to your wardrobe.",
+      "img": "https://www.pavidas.com/images.pavidas.com/P24---moschino---A070644171555.JPG",
+      "price": 39.9,
+      "category": "t-shirts",
+      "gender": "female",
+      "quantityAvailable": 100
+    },
+    {
+      "name": "Harmont&Blaine shirt",
+      "id": "9",
+      "description": "Introducing the Harmont & Blaine Logo Embroidered Shirt, a timeless classic that epitomizes the sophisticated elegance of the renowned Italian brand. Crafted with meticulous attention to detail, this shirt seamlessly combines style and comfort for the modern gentleman.",
+      "img": "https://www.harmontblaine.com/on/demandware.static/-/Sites-harmont-m-catalog/default/dw797a03a4/images/large/CNKJ02012658M_850_1.jpg",
+      "price": 45,
+      "category": "shirts",
+      "gender": "male",
+      "quantityAvailable": 997
+    },
+    {
+      "name": "Caldo-Cotton Green Shirt",
+      "id": "10",
+      "description": "Step into a world of wonder with our Enchanting Fantasy Print Shirt, a whimsical and captivating addition to your wardrobe. Crafted with imagination and creativity, this shirt transports you to a realm of magic and adventure.",
+      "img": "https://tse4.mm.bing.net/th/id/OIG.r3P7pVymysN47CeSsgFZ?w=270&h=270&c=6&r=0&o=5&pid=ImgGn",
+      "price": 25,
+      "category": "shirts",
+      "gender": "male",
+      "quantityAvailable": 976
+    },
+    {
+      "name": "Patrizia Pepe shirt",
+      "id": "11",
+      "description": "Introducing the Patrizia Pepe Men's Classic Button-Up Shirt, a timeless essential that embodies Italian craftsmanship and sophistication. Meticulously tailored with attention to detail, this shirt exudes effortless elegance for the modern gentleman.",
+      "img": "https://www.pavidas.com/images.pavidas.com/A23---patrizia+pepe---5C0257%28%29A01K102.JPG",
+      "price": 60,
+      "category": "shirts",
+      "gender": "male",
+      "quantityAvailable": 990
+    },
+    {
+      "name": "Versace shirt",
+      "id": "12",
+      "description": "Introducing the Versace Men's Iconic Shirt, a symbol of opulence and luxury from the renowned Italian fashion house. Crafted with meticulous attention to detail, this shirt embodies the essence of Versace's bold aesthetic and iconic heritage.",
+      "img": "https://www.versace.com/dw/image/v2/BGWN_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw5263d1ea/original/90_1003926-1A03044_5B000_16_Barocco~Silk~Shirt-Clothing-Versace-online-store_4_1.jpg?sw=850&q=85&strip=true",
+      "price": 90,
+      "category": "shirts",
+      "gender": "male",
+      "quantityAvailable": 982
+    },
+    {
+      "name": "blue shirt",
+      "id": "13",
+      "description": "Introducing our Sky Blue Women's Button-Up Shirt, a versatile and elegant addition to your wardrobe. Crafted with attention to detail and quality, this shirt offers timeless style and sophistication for every occasion.",
+      "img": "https://www.lestyledeparis.com/cdn/shop/products/9.30vanit_1000x.jpg?v=1675680647",
+      "price": 30,
+      "category": "shirt",
+      "gender": "female",
+      "quantityAvailable": 1000
+    },
+    {
+      "name": "Moon shirt",
+      "id": "14",
+      "description": "Introducing the Moon Black Women's Button-Up Shirt, a versatile and chic addition to your wardrobe. Crafted with meticulous attention to detail, this shirt offers timeless style and sophistication for any occasion.",
+      "img": "https://www.bolf.co.it/ita_pl_Camicia-elegante-a-maniche-lunghe-con-fiocco-da-donna-nera-Bolf-644-91759_1.jpg",
+      "price": 20,
+      "category": "shirts",
+      "gender": "female",
+      "quantityAvailable": 1000
+    },
+    {
+      "name": "plaid shirt",
+      "id": "15",
+      "description": "Introducing our Women's Plaid Flannel Shirt, a timeless classic that combines comfort and style effortlessly. Crafted with high-quality materials and attention to detail, this shirt offers a versatile addition to your wardrobe.",
+      "img": "https://www.upim.com/dw/image/v2/AAKZ_PRD/on/demandware.static/-/Sites-upim-it-master/default/dw0182749d/images/hi-res/12595860.jpg?sw=650",
+      "price": 15.99,
+      "category": "shirts",
+      "gender": "female",
+      "quantityAvailable": 100
+    },
+    {
+      "name": "spotted shirt",
+      "id": "16",
+      "description": "Introducing our Women's Spotted Shirt, a playful and chic addition to your wardrobe. Crafted with attention to detail and quality, this shirt offers a versatile and stylish option for any occasion.",
+      "img": "https://www.toocool.it/cdn/shop/products/immagine-1-toocool-camicia-donna-maculata-leopardata-vb-32385_700x700.jpg?v=1678781576",
+      "price": 35.99,
+      "category": "shirts",
+      "gender": "female",
+      "quantityAvailable": 100
+    },
+    {
+      "name": "jeans",
+      "id": "17",
+      "description": "Introducing our Men's Skinny Fit Jeans, a modern staple that combines style and comfort effortlessly. Crafted with precision and attention to detail, these jeans offer a sleek and tailored look for the fashion-forward gentleman.",
+      "img": "https://tse3.mm.bing.net/th/id/OIG4.xr44AoWJodnzz09kwipw?w=1024&h=1024&rs=1&pid=ImgDetMain",
+      "price": 35,
+      "category": "pants",
+      "gender": "male",
+      "quantityAvailable": 100
+    },
+    {
+      "name": "Palm Angels pants",
+      "id": "18",
+      "description": "Introducing the Palm Angels Men's Blue Track Pants, a stylish and versatile addition to your athleisure wardrobe. Crafted with meticulous attention to detail, these track pants blend urban edge with high-end fashion for a contemporary look.",
+      "img": "https://www.mrporter.com/variants/images/1647597314800643/ou/w2000_q60.jpg",
+      "price": 45,
+      "category": "pants",
+      "gender": "male",
+      "quantityAvailable": 80
+    },
+    {
+      "name": "Amiri jeans",
+      "id": "19",
+      "description": "Introducing the AMIRI Men's Skinny Fit Jeans, a luxurious statement piece that merges edgy aesthetics with impeccable craftsmanship. Crafted with precision and attention to detail, these jeans exude urban sophistication and timeless style.",
+      "img": "https://mobile.yoox.com/images/items/30/30134333CX_14_a.jpg?impolicy=crop&width=387&height=490",
+      "price": 49.9,
+      "category": "pants",
+      "gender": "male",
+      "quantityAvailable": 100
+    },
+    {
+      "name": "Cargo pants",
+      "id": "20",
+      "description": "Introducing our Men's Beige Cargo Pants, a versatile and functional addition to your wardrobe. Crafted with both style and practicality in mind, these cargo pants offer a perfect blend of comfort and utility for the modern gentleman.",
+      "img": "https://img.kwcdn.com/product/Fancyalgo/VirtualModelMatting/e37bac6a515a2e5f8f0dd6ed24b91ff2.jpg?imageMogr2/auto-orient%7CimageView2/2/w/800/q/70/format/webp",
+      "price": 29.9,
+      "category": "pants",
+      "gender": "male",
+      "quantityAvailable": 100
+    },
+    {
+      "name": "Bolf pants",
+      "id": "21",
+      "description": "Introducing our BOLF Women's Cargo Pants, a stylish and practical choice for the modern woman on the go. Crafted with attention to detail and functionality, these cargo pants offer versatility and comfort for everyday wear.",
+      "img": "https://www.bolf.co.it/ita_pl_Pantaloni-cargo-di-tuta-da-donna-rosa-Bolf-HW2516CA-91469_2.jpg",
+      "price": 25,
+      "category": "pants",
+      "gender": "female",
+      "quantityAvailable": 100
+    },
+    {
+      "name": "Alcott jeans",
+      "id": "22",
+      "description": "Introducing our Alcott Women's Blue Jeans, a classic staple that combines style and comfort effortlessly. Crafted with attention to detail and quality, these jeans offer a versatile and timeless option for everyday wear.",
+      "img": "https://www.alcott.eu/dw/image/v2/BDJZ_PRD/on/demandware.static/-/Sites-catalog-alcott-master/default/dwd70cf198/hi-res/5T0000DOAX13_D006_001.jpg?sw=1000&sh=1350&q=90&strip=false",
+      "price": 39.9,
+      "category": "pants",
+      "gender": "female",
+      "quantityAvailable": 96
+    },
+    {
+      "name": "Armani jeans",
+      "id": "23",
+      "description": "Introducing the Armani Women's Skinny Jeans, a sophisticated essential for the modern woman's wardrobe. Crafted with meticulous attention to detail and luxurious materials, these jeans offer a sleek silhouette and unparalleled comfort.",
+      "img": "https://www.gioelaura.com/91928-large_default/jeans-emporio-armani.jpg",
+      "price": 55,
+      "category": "pants",
+      "gender": "female",
+      "quantityAvailable": 98
+    },
+    {
+      "name": "Kiabi pants",
+      "id": "24",
+      "description": "Introducing the Kiabi Women's Beige Skinny Pants, a versatile and stylish addition to your wardrobe. Crafted with both comfort and fashion in mind, these pants offer a flattering silhouette and endless styling options.",
+      "img": "https://static.kiabi.it/images/jeans-wide-leg-a-vita-alta-beige-aof78_4_fr1.jpg",
+      "price": 45,
+      "category": "pants",
+      "gender": "female",
+      "quantityAvailable": 100
+    },
+    {
+      "name": "Bolf jacket",
+      "id": "25",
+      "description": "Introducing the BOLF Men's Red Jacket, a bold statement piece that exudes confidence and style. Crafted with attention to detail and quality materials, this jacket is designed to keep you warm and fashionable in cooler weather.",
+      "img": "https://www.bolf.co.it/ita_pl_Giubbotto-parka-invernale-trapuntato-da-uomo-rosso-Bolf-7330-90400_13.jpg",
+      "price": 60,
+      "category": "jackets",
+      "gender": "male",
+      "quantityAvailable": 100
+    },
+    {
+      "name": "Blauer jacket",
+      "id": "26",
+      "description": "Introducing the Blauer Men's Black Jacket, a sleek and versatile outerwear essential designed to elevate your style in any season. Meticulously crafted with attention to detail and quality materials, this jacket effortlessly combines sophistication with practicality.",
+      "img": "https://www.sir126.it/media/000/087/384/f/450x600-giubbino-blauer-nero-da-uomo-trapuntato-ad-onde-c03005006355.jpg",
+      "price": 75,
+      "category": "jackets",
+      "gender": "male",
+      "quantityAvailable": 100
+    },
+    {
+      "name": "Paolo Moretti jacket",
+      "id": "27",
+      "description": "Introducing the Paolo Moretti Men's Blue Jacket with Fur Trim, a luxurious and stylish outerwear piece that combines warmth with refined sophistication. Expertly crafted with meticulous attention to detail and quality materials, this jacket is designed to keep you cozy and fashionable in colder climates.",
+      "img": "https://fur.it/wp-content/uploads/2022/06/giubbotto-uomo-blu-con-pelliccia.jpg",
+      "price": 50,
+      "category": "jackets",
+      "gender": "male",
+      "quantityAvailable": 100
+    },
+    {
+      "name": "Fay jacket",
+      "id": "28",
+      "description": "Introducing the Fay Men's Beige Waterproof Jacket, a fusion of style and functionality crafted for the modern gentleman. Exemplifying Italian craftsmanship and luxury, this jacket offers unparalleled protection against the elements without compromising on sophistication.",
+      "img": "https://www.fay.com/fashion/fayNew/NAM62480030AXXC003/NAM62480030AXXC003-38.jpg?imwidth=650",
+      "price": 45,
+      "category": "jackets",
+      "gender": "male",
+      "quantityAvailable": 100
+    },
+    {
+      "name": "Bolf jacket",
+      "id": "29",
+      "description": "Introducing the BOLF Women's Black Winter Jacket, a versatile and stylish outerwear essential designed to keep you warm and fashionable during the colder months. Crafted with attention to detail and quality materials, this jacket combines functionality with modern aesthetics for the contemporary woman.",
+      "img": "https://www.bolf.co.it/ita_pl_Giubbotto-invernale-con-cappuccio-e-pelliccia-da-donna-nero-Bolf-16M9121-93722_1.jpg",
+      "price": 50,
+      "category": "jackets",
+      "gender": "female",
+      "quantityAvailable": 100
+    },
+    {
+      "name": "Alcott jacket",
+      "id": "30",
+      "description": "Introducing the Alcott Women's Hooded Jacket, a stylish and practical outerwear piece designed for the modern woman. Crafted with attention to detail and functionality, this jacket offers versatility and comfort for everyday wear.",
+      "img": "https://www.alcott.eu/dw/image/v2/BDJZ_PRD/on/demandware.static/-/Sites-catalog-alcott-master/default/dw4fb1db7a/hi-res/GB1798DO_C218_001.jpg?sw=1000&sh=1350&q=90&strip=false",
+      "price": 40.9,
+      "category": "jackets",
+      "gender": "female",
+      "quantityAvailable": 100
+    },
+    {
+      "name": "Blauer jacket",
+      "id": "31",
+      "description": "Introducing the Blauer Women's Pink Jacket, a vibrant and stylish outerwear piece designed to brighten up your wardrobe. Crafted with attention to detail and quality materials, this jacket offers both fashion and functionality for the modern woman.",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7Ie7wwJ17vHWC0NwO69z1HqCtLR-FmRrgCg&usqp=CAU",
+      "price": 65,
+      "category": "jackets",
+      "gender": "female",
+      "quantityAvailable": 100
+    },
+    {
+      "name": "Moncler jacket",
+      "id": "32",
+      "description": "Introducing the Moncler Women's Orange Jacket, a striking and luxurious outerwear piece designed to make a statement. Crafted with meticulous attention to detail and premium materials, this jacket seamlessly blends style with functionality for the modern woman.",
+      "img": "https://www.moncler.com/on/demandware.static/-/Library-Sites-library-global/default/dwe0d37b02/flp-5/flp-w-update-2011-promo-5050-genius-ww-desk.jpg",
+      "price": 90,
+      "category": "jackets",
+      "gender": "female",
+      "quantityAvailable": 100
+    },
+    {
+      "name": "Maserati watch",
+      "id": "33",
+      "description": "Discover the epitome of luxury and performance with the Maserati Men's Blue Watch Edition, where timeless elegance meets precision engineering. Crafted with meticulous attention to detail and inspired by the iconic Maserati heritage, this watch is more than just a timepiece; it's a statement of refined sophistication and style.",
+      "img": "https://www.serenagioielli.it/wp-content/uploads/2023/11/Orologio-Maserati-uomo-blue-edition-R8871612042-extra-big-23363-713.jpg",
+      "price": 190,
+      "category": "accessories",
+      "gender": "male",
+      "quantityAvailable": 98
+    },
+    {
+      "name": "Versace wallet",
+      "id": "34",
+      "description": "Elevate your everyday essentials with the Versace Men's Black Leather Wallet, a symbol of timeless luxury and sophistication. Crafted with impeccable attention to detail and the finest materials, this wallet exudes Italian craftsmanship and iconic Versace style.",
+      "img": "https://m.media-amazon.com/images/I/51SD6jsrUlL._AC_UL720_.jpg",
+      "price": 55,
+      "category": "accessories",
+      "gender": "male",
+      "quantityAvailable": 100
+    },
+    {
+      "name": "Gucci belt",
+      "id": "35",
+      "description": "Elevate your ensemble with the timeless sophistication of the Gucci Men's Beige Leather Belt, a signature accessory that embodies Italian luxury and craftsmanship. Crafted with meticulous attention to detail and the finest materials, this belt seamlessly blends style with functionality for the modern gentleman.",
+      "img": "https://www.mrporter.com/variants/images/1647597311482760/in/w2000_q60.jpg",
+      "price": 45,
+      "category": "accessories",
+      "gender": "male",
+      "quantityAvailable": 100
+    },
+    {
+      "name": "Esquires sunglasses",
+      "id": "36",
+      "description": "Introducing the Esquires Men's Sunglasses, a fusion of classic design and modern functionality crafted for the discerning gentleman. With meticulous attention to detail and premium materials, these sunglasses offer unparalleled style and UV protection for every adventure.",
+      "img": "https://hips.hearstapps.com/hmg-prod/images/occhiali-da-sole-uomo-primavera-estate-2021-1612519234.jpg?crop=1.00xw:1.00xh;0,0&resize=1200:*",
+      "price": 100,
+      "category": "accessories",
+      "gender": "male",
+      "quantityAvailable": 100
+    },
+    {
+      "name": "Guess bag",
+      "id": "37",
+      "description": "Introducing the Guess Women's Black Handbag, a sophisticated accessory that blends classic design with contemporary flair. Crafted with precision and attention to detail, this handbag offers both style and functionality for the modern woman.",
+      "img": "https://www.nikyshoes.com/82862-large_default/guess-borsa-donna-black.jpg",
+      "price": 135,
+      "category": "accessories",
+      "gender": "female",
+      "quantityAvailable": 100
+    },
+    {
+      "name": "Swarovski jewel ",
+      "id": "38",
+      "description": "Elevate your jewelry collection with the Swarovski Pink and Gold Bracelet, a stunning accessory that combines timeless elegance with modern sophistication. Crafted with precision and adorned with Swarovski crystals, this bracelet exudes luxury and glamour, making it the perfect accent for any occasion.",
+      "img": "https://alfyo.it/cdn/shop/files/Swarovski-Bracciale-Tennis-Matrix-Rosa-657659-Side_1024x.png?v=1697131403",
+      "price": 95,
+      "category": "accessories",
+      "gender": "female",
+      "quantityAvailable": 100
+    },
+    {
+      "name": "sunglassess",
+      "id": "39",
+      "description": "Introducing our Glitter Women's Sunglasses, where fashion meets sparkle for the ultimate statement accessory. Crafted with flair and designed to dazzle, these sunglasses add a touch of glamour to any ensemble, making you shine bright wherever you go",
+      "img": "https://m.media-amazon.com/images/I/61Bz43lmK9L._AC_UY350_.jpg",
+      "price": 55,
+      "category": "accessories",
+      "gender": "female",
+      "quantityAvailable": 100
+    },
+    {
+      "name": "Louis Vuitton belt",
+      "id": "40",
+      "description": "Elevate your ensemble with the Louis Vuitton Women's Brown Belt, a symbol of luxury and sophistication. Crafted with precision and attention to detail, this belt seamlessly blends iconic design with superior craftsmanship, making it the perfect accessory for the modern woman.",
+      "img": "https://www.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton--BC_221211_WOMEN_EVM_065_LVCOM_2000x2000_DI2.jpg",
+      "price": 59.9,
+      "category": "accessories",
+      "gender": "female",
+      "quantityAvailable": 100
+    },
+    {
+      "name": "Underclub sweatshirt",
+      "id": "41",
+      "description": "Indulge in unparalleled comfort and urban style with the Underclub Men's Hoodie Sweatshirt. Crafted with meticulous attention to detail and premium materials, this hoodie redefines casual elegance for the modern man.",
+      "img": "https://banditostore.com/cdn/shop/products/A23---underclub---80025-VERDE_635b4c71-598b-4f53-b51c-0de832035e38.jpg?v=1706782956&width=640",
+      "price": 35,
+      "category": "sweatshirts",
+      "gender": "male",
+      "quantityAvailable": 100
+    },
+    {
+      "name": "black sweatshirt",
+      "id": "42",
+      "description": "Step up your streetwear game with our Men's Black Hoodie featuring a striking blue logo. Crafted with premium materials and attention to detail, this hoodie blends comfort with contemporary style for the modern man.",
+      "img": "https://img01.ztat.net/article/spp-media-p1/1331b79d836d4e9483e7254b778cb729/f4c2e11e94274b8ba19190599aafe2ea.jpg?imwidth=300",
+      "price": 30,
+      "category": "sweatshirts",
+      "gender": "male",
+      "quantityAvailable": 100
+    },
+    {
+      "name": "Napapijiri sweatshirt",
+      "id": "43",
+      "description": "Embrace comfort and style with the Napapijri Blue Hoodie Sweatshirt, a versatile piece designed for the modern explorer. Crafted with quality materials and attention to detail, this hoodie combines urban flair with outdoor functionality, perfect for your next urban adventure.",
+      "img": "https://www.citystoreshop.it/38641-large_default/felpa-uomo-con-cappuccio-ayas-napapijri-np0a4gja.jpg",
+      "price": 60,
+      "category": "sweatshirts",
+      "gender": "male",
+      "quantityAvailable": 100
+    },
+    {
+      "name": "white sweatshirt",
+      "id": "44",
+      "description": "Elevate your casual wardrobe with our Men's White Sweatshirt featuring a striking graphic design. Crafted with premium materials and attention to detail, this sweatshirt effortlessly combines comfort with urban style for the modern man.",
+      "img": "https://www.marycottoncouture.com/wp-content/uploads/2023/07/felpa-uomo-girocollo-basic-25148-becco.jpg",
+      "price": 45,
+      "category": "sweatshirts",
+      "gender": "male",
+      "quantityAvailable": 100
+    },
+    {
+      "name": "blue sweatshirt",
+      "id": "45",
+      "description": "Elevate your casual wardrobe with our Women's Blue Casual Hoodie Sweatshirt, a versatile essential designed for everyday comfort and style. Crafted with soft fabrics and thoughtful details, this hoodie effortlessly combines casual charm with feminine elegance.",
+      "img": "https://t-shirtpersonalizzate.it/wp-content/uploads/2021/06/felpa-personalizzata-da-donna-con-cappuccio.jpg",
+      "price": 25,
+      "category": "sweatshirts",
+      "gender": "female",
+      "quantityAvailable": 100
+    },
+    {
+      "name": "pink sweatshirt",
+      "id": "46",
+      "description": "Infuse your casual wardrobe with a touch of feminine charm with our Women's Pink Casual Hoodie Sweatshirt. Crafted for comfort and style, this hoodie is the perfect blend of laid-back elegance and effortless sophistication for the modern woman.",
+      "img": "https://www.stampegrafica.plus/19052-medium_default/felpa-donna-con-cappuccio-e-tasca-basic-hoody-lady-james-nicholson.jpg",
+      "price": 30,
+      "category": "sweatshirts",
+      "gender": "female",
+      "quantityAvailable": 100
+    },
+    {
+      "name": "Guess sweatshirt",
+      "id": "47",
+      "description": "Elevate your casual wardrobe with our Guess Women's White Hoodie Sweatshirt featuring a captivating graphic design. Crafted with premium materials and attention to detail, this sweatshirt effortlessly combines comfort with urban style for the modern woman.",
+      "img": "https://brogiabbigliamento.it/206838-superlarge_default/felpa-girocollo-da-donna.jpg",
+      "price": 50,
+      "category": "sweatshirts",
+      "gender": "female",
+      "quantityAvailable": 100
+    },
+    {
+      "name": "purple sweatshirt",
+      "id": "48",
+      "description": "Elevate your casual wardrobe with our Women's Purple Hoodie Sweatshirt featuring a chic design. Crafted with comfort and style in mind, this sweatshirt effortlessly combines urban flair with feminine charm for the modern woman.",
+      "img": "https://banditostore.com/cdn/shop/products/A23---superculture_28_29---JENNY-Z-LILLA_3_P.jpg?v=1705476243&width=640",
+      "price": 35,
+      "category": "sweatshirts",
+      "gender": "female",
+      "quantityAvailable": 100
+    },
+    {
+      "name": "yellow knitwear",
+      "id": "49",
+      "description": "Elevate your wardrobe with our Men's Classic Yellow Knitwear, a timeless piece that exudes sophistication and comfort. Crafted with the finest materials and meticulous attention to detail, this knitwear combines classic design with modern versatility for the discerning gentleman.",
+      "img": "https://m.media-amazon.com/images/I/51597KJRSHL._AC_SL1000_.jpg",
+      "price": 25,
+      "category": "knitwear",
+      "gender": "male",
+      "quantityAvailable": 100
+    },
+    {
+      "name": "black knitwear",
+      "id": "50",
+      "description": "Elevate your wardrobe with our Men's Classic Yellow Knitwear, a timeless piece that exudes sophistication and comfort. Crafted with the finest materials and meticulous attention to detail, this knitwear combines classic design with modern versatility for the discerning gentleman.",
+      "img": "https://www.diffusionestock.com/open2b/var/products/39/99/0-1237d929-700-maglieria-uomo-100-cashmere-dolcevita-Made-In-Italy.jpg",
+      "price": 30,
+      "category": "knitwear",
+      "gender": "male",
+      "quantityAvailable": 98
+    },
+    {
+      "name": "spotted cardigan ",
+      "id": "51",
+      "description": "Elevate your wardrobe with our Men's Elegant Spotted Cardigan, a refined piece that exudes timeless charm and sophistication. Crafted with meticulous attention to detail and luxurious materials, this cardigan effortlessly combines elegance with comfort for the modern gentleman. ",
+      "img": "https://www.amicianimalipalermo.it/wp-content/uploads/2022/10/maglieria-uomo-cardigan-gbu0582-gac3ablle.jpg",
+      "price": 45,
+      "category": "knitwear",
+      "gender": "male",
+      "quantityAvailable": 100
+    },
+    {
+      "name": "pullover",
+      "id": "52",
+      "description": "Embrace the cozy warmth and classic style of our Men's Wool Pullover, crafted with premium materials and meticulous attention to detail. Perfect for cooler weather, this pullover offers both comfort and sophistication for the modern man.",
+      "img": "https://assets.maisoncashmere.com/media/catalog/product/colors/mcm048-2312.jpg",
+      "price": 40.9,
+      "category": "knitwear",
+      "gender": "male",
+      "quantityAvailable": 100
+    },
+    {
+      "name": "purple knitwear",
+      "id": "53",
+      "description": "Elevate your wardrobe with our Women's Elegant Purple Knitwear, a luxurious addition to your collection. Crafted with exquisite attention to detail and the finest materials, this knitwear exudes timeless sophistication and effortless elegance for the modern woman.",
+      "img": "https://media.illanificio.it/img/p/1/8/5/5/2/18552-medium_default.jpg",
+      "price": 30,
+      "category": "knitwear",
+      "gender": "female",
+      "quantityAvailable": 100
+    },
+    {
+      "name": "pullover",
+      "id": "54",
+      "description": "Wrap yourself in cozy comfort with our Women's Comfort White Pullover, a wardrobe essential for the modern woman. Crafted with soft fabrics and a relaxed silhouette, this pullover combines effortless style with ultimate comfort for everyday wear.",
+      "img": "https://www.alcott.eu/dw/image/v2/BDJZ_PRD/on/demandware.static/-/Sites-catalog-alcott-master/default/dw86fd231d/hi-res/MA12884DOX12_WH1_001.jpg?sw=1000&sh=1350&q=90&strip=false",
+      "price": 25,
+      "category": "knitwear",
+      "gender": "female",
+      "quantityAvailable": 100
+    },
+    {
+      "name": "cardigan",
+      "id": "55",
+      "description": "Elevate your wardrobe with our Women's Elegant Fuchsia Cardigan, a timeless piece that exudes sophistication and style. Crafted with attention to detail and luxurious materials, this cardigan effortlessly combines elegance with comfort for the modern woman.",
+      "img": "https://rifo-lab.com/cdn/shop/products/R0A1073-1_e2c3d323-bd87-41bd-9641-3440712fdc7d.jpg?v=1660215466&width=800",
+      "price": 45,
+      "category": "knitwear",
+      "gender": "female",
+      "quantityAvailable": 100
+    },
+    {
+      "name": "blue knitwear",
+      "id": "56",
+      "description": "Wrap yourself in comfort and style with our Women's Blue Turtleneck Knitwear, a timeless addition to your winter wardrobe. Crafted with exquisite attention to detail and luxurious materials, this knitwear piece offers warmth and sophistication for the modern woman.",
+      "img": "https://www.zuiki.it/cdn/shop/products/120822.jpg?v=1696139628",
+      "price": 20.9,
+      "category": "knitwear",
+      "gender": "female",
+      "quantityAvailable": 100
+    }
+  ]
+}
